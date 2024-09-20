@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to GRAMA-LINK (GN)</title>
+    <link rel="stylesheet" href="C:\Users\acer\OneDrive\Desktop\GN OFFICER SYSTEM\Front End\User Perspective\Login Select\Login_GN.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="header">
+            <img src="GN Logo.png" alt="Grama Link Logo" class="logo">
+            <div class="separator"></div>
+            <div class="title-text">
+                <h2 class="login-title">Login to</h2>
+                <h2 class="grama-link-title">GRAMA-LINK</h2>
+            </div>
+        </div>
+
+        <form action="/gn-login" method="post">
+            <div class="input-group">
+                <input type="text" id="gn-id" name="gn-id" placeholder="Grama Niladhari ID" required>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+
+            <div class="forgot-options">
+                <a href="#" class="forgot-password">Forgot password?</a>
+                <a href="#" class="change-user-type">Change user type?</a>
+            </div>
+
+            <button type="submit" class="submit-btn">Log in</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register an Account</title>
+    <link rel="stylesheet" href="C:\Users\acer\OneDrive\Desktop\GN OFFICER SYSTEM\Front End\User Perspective\Registration Page 01\assest\Registration_Page_01.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="header">
+            <img src="GN Logo.png" alt="Grama Link Logo" class="logo">
+            <div class="separator"></div>
+            <div class="title-text">
+                <h2 class="register">Register</h2>
+                <h2 class="an-account">an account</h2>
+            </div>
+        </div>
+        
+
+        <form action="/register" method="post">
+            <div class="input-group">
+                <input type="text" id="username" name="username" placeholder="User Name" required>
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="nic" name="nic" placeholder="NIC" required>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+
+            <div class="rules-checkbox">
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">I have read and agree to <a href="#">Rules & Regulations</a></label>
+            </div>
+
+            <button type="submit" class="submit-btn">Create Account</button>
+
+            <p class="signin-link">Already have an account? <a href="login.html">Sign in</a></p>
+        </form>
+    </div>
+</body>
+</html>

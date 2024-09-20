@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.grama-link {
+    color: #0056b3;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #666;
+}
+
+.user-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-type {
+    background-color: #f0f8ff;
+    border: 2px solid #0056b3;
+    color: #0056b3;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-type:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
